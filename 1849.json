@@ -3,10 +3,11 @@
     "title": "1849",
     "subtitle": "The Game of Sicilian Railways",
     "designer": "Federico Vellani",
+    "designerSize": "0",
     "publisher": "aag",
     "background": "water",
     "orientation": "horizontal",
-    "titleY": 900,
+    "titleY": 950,
     "titleX": 25,
     "marketTokens": 2,
     "currency": "L.#"
@@ -166,11 +167,6 @@
       "number": 4,
       "certLimit": "9/11",
       "capital": 375
-    },
-    {
-      "number": 5,
-      "certLimit": 9,
-      "capital": 300
     }
   ],
   "privates": [
@@ -780,6 +776,16 @@
     }
   ],
   "map": {
+    "players": {
+      "x": 30,
+      "y": 1750,
+      "cellWidth": 80
+    },
+    "roundTracker": {
+      "type": "row",
+      "x": 573,
+      "y": 1960
+    },
     "hexes": [
       {
         "color": "water",

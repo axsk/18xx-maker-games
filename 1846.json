@@ -8,7 +8,11 @@
     "marketTokens": 2,
     "extraStationTokens": 3,
     "capitalization": "incremental",
-    "currency": "$#"
+    "currency": "$#",
+    "designerSize": "0",
+    "titleX": 1250,
+    "titleY": 1200
+
   },
   "links": {
     "bgg": "https://www.boardgamegeek.com/boardgame/17405/1846-race-midwest",
@@ -35,12 +39,6 @@
   "floatPercent": 20,
   "ipo": false,
   "players": [
-    {
-      "number": 2,
-      "capital": 600,
-      "certLimit": 19,
-      "bank": 7000
-    },
     {
       "number": 3,
       "capital": 400,
@@ -515,8 +513,8 @@
     },
     "roundTracker": {
       "type": "round",
-      "x": 150,
-      "y": 440
+      "x": 1600,
+      "y": 1100
     },
     "hexes": [
       {
